@@ -1,21 +1,13 @@
-# SumList
+# ℹ️ <b> Descrição </b>
 
-**TODO: Add description**
+Módulos referente ao desafio do primeiro módulo do capítulo 01 da trilha de Elixir - rocketseat
 
-## Installation
+# <b> Sobre os módulos </b>
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `sum_list` to your list of dependencies in `mix.exs`:
+*  ListFilter.call/1 espera receber uma lista e irá retornar a quantidade de números ímpares presentes na lista.
 
-```elixir
-def deps do
-  [
-    {:sum_list, "~> 0.1.0"}
-  ]
-end
-```
+* ListLength.call/1 espera receber uma lista e irá retornar a quantidade de itens da lista.
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/sum_list](https://hexdocs.pm/sum_list).
+
+### utilize mix test para executar todos os testes
 

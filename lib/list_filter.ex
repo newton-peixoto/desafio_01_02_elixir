@@ -1,9 +1,9 @@
 defmodule ListFilter do
-  def odd_numbers_amount([]) do
+  def call([]) do
     0
   end
 
-  def odd_numbers_amount(list) do
+  def call(list) do
     list
     |> Enum.filter(fn element ->
       element |> is_number
